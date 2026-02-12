@@ -1,5 +1,7 @@
 import React from 'react'
-
+import { Input } from '../ui/input'
 export default function NavSearch() {
-  return <div>NavSearch</div>
+  return (
+    <Input placeholder='Pretrazi pojam...' className='max-w-[200px] mt-4' />
+  )
 }
